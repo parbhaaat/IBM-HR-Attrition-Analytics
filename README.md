@@ -1,13 +1,13 @@
 # HR Employee Attrition Analysis
 ### Python · SQL · Power BI
 
-> Identifying why employees leave using data — and what companies can do about it.
+> Identifying why employees leave using data - and what companies can do about it.
 
----
+
 
 ## Problem Statement
 
-Employee attrition is costly — replacing a single employee can cost up to 200% of their annual salary. This project analyzes IBM HR data to uncover the key drivers behind employee attrition, helping HR teams make data-driven decisions to improve retention.
+Employee attrition is costly - replacing a single employee can cost up to 200% of their annual salary. This project analyzes IBM HR data to uncover the key drivers behind employee attrition, helping HR teams make data-driven decisions to improve retention.
 
 ---
 
@@ -31,26 +31,6 @@ Employee attrition is costly — replacing a single employee can cost up to 200%
 - **Power BI** — interactive dashboard with DAX measures
 - **Excel** — column value mapping
 
----
-
-## Project Structure
-
-```
-hr-attrition-analysis/
-│
-├── HR_Attrition_Cleaning.ipynb   # Data cleaning and feature engineering
-├── HR_Attrition_SQL.ipynb        # SQL business questions and answers
-├── HR_analytics_cleaned.csv      # Cleaned dataset exported from Python
-├── HR_Dashboard.pdf              # Power BI dashboard export (3 pages)
-└── README.md
-```
-
----
-
-## Workflow
-
-```
-Raw CSV  →  Jupyter + Pandas  →  SQL Analysis  →  Power BI Dashboard
 ```
 
 **Step 1 — Python cleaning:**
@@ -98,17 +78,3 @@ Income gap KPI, avg income by education (leavers vs stayers), distance from home
 ## Dataset
 
 IBM HR Analytics Employee Attrition dataset — fictional data created by IBM data scientists. 1,470 rows, 35 columns. No nulls.
-
----
-
-## How to Run
-
-1. Clone this repository
-2. Open `HR_Attrition_Cleaning.ipynb` in Jupyter and run all cells
-3. Open `HR_Attrition_SQL.ipynb` to run SQL queries
-4. Open Power BI Desktop and load `HR_analytics_cleaned.csv`
-5. Recreate the dashboard or view `HR_Dashboard.pdf`
-
----
-
-*This project was built for portfolio and learning purposes.*
