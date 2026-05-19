@@ -1,15 +1,15 @@
 # HR Employee Attrition Analysis
 ### Python · SQL · Power BI
 
-> Identifying why employees leave using data - and what companies can do about it.
+> Identifying why employees leave using data — and what companies can do about it.
 
 
 
 ## Problem Statement
 
-Employee attrition is costly - replacing a single employee can cost up to 200% of their annual salary. This project analyzes IBM HR data to uncover the key drivers behind employee attrition, helping HR teams make data-driven decisions to improve retention.
+Employee attrition is costly — replacing a single employee can cost up to 200% of their annual salary. This project analyzes IBM HR data to uncover the key drivers behind employee attrition, helping HR teams make data-driven decisions to improve retention.
 
----
+
 
 ## Key Findings
 
@@ -22,7 +22,7 @@ Employee attrition is costly - replacing a single employee can cost up to 200% o
 | Highest risk age group | 18–25 year olds at 35.2% attrition |
 | Single employees | Leave at 25.5% vs 12% for married employees |
 
----
+
 
 ## Tools Used
 
@@ -31,6 +31,11 @@ Employee attrition is costly - replacing a single employee can cost up to 200% o
 - **Power BI** — interactive dashboard with DAX measures
 - **Excel** — column value mapping
 
+
+## Workflow
+
+```
+Raw CSV  →  Jupyter + Pandas  →  SQL Analysis  →  Power BI Dashboard
 ```
 
 **Step 1 — Python cleaning:**
@@ -53,12 +58,18 @@ Employee attrition is costly - replacing a single employee can cost up to 200% o
 
 **Page 1 — Overview**
 KPI cards, attrition by department, attrition by job role, donut chart, tenure comparison
+<img width="1321" height="737" alt="Screenshot 2026-05-19 210726" src="https://github.com/user-attachments/assets/d8c3b132-10ee-461f-8161-f078229594f5" />
+
 
 **Page 2 — People & Job Factors**
 Attrition by age group, marital status, overtime comparison, job satisfaction vs attrition, work-life balance vs attrition
+<img width="1321" height="737" alt="Screenshot 2026-05-19 210744" src="https://github.com/user-attachments/assets/ad4cf68c-3c82-4477-9511-c9056659aadc" />
+
 
 **Page 3 — Compensation**
 Income gap KPI, avg income by education (leavers vs stayers), distance from home by job role
+<img width="1318" height="735" alt="Screenshot 2026-05-19 210804" src="https://github.com/user-attachments/assets/efdc1fcc-e751-48f6-8a9c-c136b98e6708" />
+
 
 ---
 
